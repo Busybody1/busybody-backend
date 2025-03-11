@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2016",        // Specifies the ECMAScript target version
+    "module": "commonjs",      // Specifies the module system (CommonJS for Node.js)
+    "rootDir": "./src",      // Where your TypeScript source files are located
+    "outDir": "./dist",      // Where the compiled JavaScript files will be placed
+    "esModuleInterop": true,   // Enables better compatibility with CommonJS modules
+    "forceConsistentCasingInFileNames": true, // Enforces case sensitivity in file names
+    "strict": true,          // Enables strict type-checking options
+    "skipLibCheck": true       // Skips type checking of declaration files (speeds up compilation)
+  }
+}
